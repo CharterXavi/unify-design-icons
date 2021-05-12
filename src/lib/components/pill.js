@@ -1,9 +1,9 @@
 import React from 'react';
 
-const PillIcon = () => {
+const PillIcon = (props) => {
 
 return (
-  <svg className='icon' viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <svg className={props.className} viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
     <path d="M20 14H29.5C33.0899 14 36 16.9101 36 20.5V21.5C36 25.0899 33.0899 28 29.5 28H20V14Z" fill="#282E3E"/>
     <path d="M18.0796 15.4H29.1196C32.2124 15.4 34.7196 17.9072 34.7196 21C34.7196 24.0928 32.2124 26.6 29.1196 26.6H18.0796V15.4Z" fill="white"/>
     <path d="M19.9901 27.35H10.5001C7.26927 27.35 4.65014 24.7309 4.65014 21.5V20.5C4.65014 17.2691 7.26927 14.65 10.5001 14.65L19.9901 14.65V27.35Z" fill="url(#pill)" stroke="#282E3E" strokeWidth="1.3"/>

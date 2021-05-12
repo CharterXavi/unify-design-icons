@@ -1,9 +1,9 @@
 import React from 'react';
 
-const LikeIcon = () => {
+const LikeIcon = (props) => {
 
 return (
-    <svg className='icon' viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <svg className={props.className} viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
         <path d="M20.3906 32.4004C20.2064 32.6828 19.7926 32.6828 19.6084 32.4004L16.1404 27.0838C15.9378 26.7732 16.1607 26.3617 16.5315 26.3617H23.4675C23.8384 26.3617 24.0612 26.7732 23.8586 27.0838L20.3906 32.4004Z" fill="#282E3E"/>
         <mask id="like" fill="white">
         <rect x="5" y="7" width="30" height="19.9149" rx="0.933915"/>

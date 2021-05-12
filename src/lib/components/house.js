@@ -1,9 +1,9 @@
 import React from 'react';
 
-const HouseIcon = () => {
+const HouseIcon = (props) => {
 
 return (
-  <svg className='icon' viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <svg className={props.className} viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
     <path d="M7.61331 34.7207V21.643H32.3881V34.7207H7.61331ZM20.0005 8.47243L32.0492 21.0842H7.9519L20.0005 8.47243Z" fill="url(#house)" stroke="url(#house1)" strokeWidth="0.558579"/>
     <path d="M16.6665 26.5717C16.6665 25.9547 17.1667 25.4545 17.7837 25.4545H22.216C22.833 25.4545 23.3332 25.9547 23.3332 26.5717V34.9999H16.6665V26.5717Z" fill="white"/>
     <path d="M30.0328 5C29.6466 5 29.3335 5.29398 29.3335 5.65663V16.5909H32.6668V5.65664C32.6668 5.29399 32.3537 5 31.9675 5H30.0328Z" fill="white"/>
