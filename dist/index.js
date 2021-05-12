@@ -33,6 +33,18 @@ Object.defineProperty(exports, "CCMIcon", {
     return _ccm.default;
   }
 });
+Object.defineProperty(exports, "CharterLogoDark", {
+  enumerable: true,
+  get: function get() {
+    return _charterLogoDark.default;
+  }
+});
+Object.defineProperty(exports, "CharterLogoLight", {
+  enumerable: true,
+  get: function get() {
+    return _charterLogoLight.default;
+  }
+});
 Object.defineProperty(exports, "CheckboxIcon", {
   enumerable: true,
   get: function get() {
@@ -45,10 +57,16 @@ Object.defineProperty(exports, "ClockIcon", {
     return _clock.default;
   }
 });
-Object.defineProperty(exports, "CompassIcon", {
+Object.defineProperty(exports, "CompassIconDark", {
   enumerable: true,
   get: function get() {
-    return _compass.default;
+    return _compassDark.default;
+  }
+});
+Object.defineProperty(exports, "CompassIconLight", {
+  enumerable: true,
+  get: function get() {
+    return _compassLight.default;
   }
 });
 Object.defineProperty(exports, "CrossIcon", {
@@ -61,6 +79,18 @@ Object.defineProperty(exports, "DataIcon", {
   enumerable: true,
   get: function get() {
     return _data.default;
+  }
+});
+Object.defineProperty(exports, "FacebookIconDark", {
+  enumerable: true,
+  get: function get() {
+    return _facebookDark.default;
+  }
+});
+Object.defineProperty(exports, "FacebookIconLight", {
+  enumerable: true,
+  get: function get() {
+    return _facebookLight.default;
   }
 });
 Object.defineProperty(exports, "FlowerIcon", {
@@ -111,6 +141,18 @@ Object.defineProperty(exports, "HouseIcon", {
     return _house.default;
   }
 });
+Object.defineProperty(exports, "InstagramIconDark", {
+  enumerable: true,
+  get: function get() {
+    return _instagramDark.default;
+  }
+});
+Object.defineProperty(exports, "InstagramIconLight", {
+  enumerable: true,
+  get: function get() {
+    return _instagramLight.default;
+  }
+});
 Object.defineProperty(exports, "InternIcon", {
   enumerable: true,
   get: function get() {
@@ -123,10 +165,16 @@ Object.defineProperty(exports, "LikeIcon", {
     return _like.default;
   }
 });
-Object.defineProperty(exports, "Logo", {
+Object.defineProperty(exports, "LinkedinIconDark", {
   enumerable: true,
   get: function get() {
-    return _logo.default;
+    return _linkedinDark.default;
+  }
+});
+Object.defineProperty(exports, "LinkedinIconLight", {
+  enumerable: true,
+  get: function get() {
+    return _linkedinLight.default;
   }
 });
 Object.defineProperty(exports, "MedkitIcon", {
@@ -189,6 +237,18 @@ Object.defineProperty(exports, "TargetIcon", {
     return _target.default;
   }
 });
+Object.defineProperty(exports, "TwitterIconDark", {
+  enumerable: true,
+  get: function get() {
+    return _twitterDark.default;
+  }
+});
+Object.defineProperty(exports, "TwitterIconLight", {
+  enumerable: true,
+  get: function get() {
+    return _twitterLight.default;
+  }
+});
 Object.defineProperty(exports, "VolunteerIcon", {
   enumerable: true,
   get: function get() {
@@ -206,15 +266,25 @@ var _briefcase = _interopRequireDefault(require("./components/briefcase"));
 
 var _ccm = _interopRequireDefault(require("./components/ccm"));
 
+var _charterLogoDark = _interopRequireDefault(require("./components/charter-logo-dark"));
+
+var _charterLogoLight = _interopRequireDefault(require("./components/charter-logo-light"));
+
 var _checkbox = _interopRequireDefault(require("./components/checkbox"));
 
 var _clock = _interopRequireDefault(require("./components/clock"));
 
-var _compass = _interopRequireDefault(require("./components/compass"));
+var _compassDark = _interopRequireDefault(require("./components/compass-dark"));
+
+var _compassLight = _interopRequireDefault(require("./components/compass-light"));
 
 var _cross = _interopRequireDefault(require("./components/cross"));
 
 var _data = _interopRequireDefault(require("./components/data"));
+
+var _facebookDark = _interopRequireDefault(require("./components/facebook-dark"));
+
+var _facebookLight = _interopRequireDefault(require("./components/facebook-light"));
 
 var _flower = _interopRequireDefault(require("./components/flower"));
 
@@ -232,11 +302,17 @@ var _hospital = _interopRequireDefault(require("./components/hospital"));
 
 var _house = _interopRequireDefault(require("./components/house"));
 
+var _instagramDark = _interopRequireDefault(require("./components/instagram-dark"));
+
+var _instagramLight = _interopRequireDefault(require("./components/instagram-light"));
+
 var _intern = _interopRequireDefault(require("./components/intern"));
 
 var _like = _interopRequireDefault(require("./components/like"));
 
-var _logo = _interopRequireDefault(require("./components/logo"));
+var _linkedinDark = _interopRequireDefault(require("./components/linkedin-dark"));
+
+var _linkedinLight = _interopRequireDefault(require("./components/linkedin-light"));
 
 var _medkit = _interopRequireDefault(require("./components/medkit"));
 
@@ -257,6 +333,10 @@ var _social = _interopRequireDefault(require("./components/social"));
 var _stethoscope = _interopRequireDefault(require("./components/stethoscope"));
 
 var _target = _interopRequireDefault(require("./components/target"));
+
+var _twitterDark = _interopRequireDefault(require("./components/twitter-dark"));
+
+var _twitterLight = _interopRequireDefault(require("./components/twitter-light"));
 
 var _volunteer = _interopRequireDefault(require("./components/volunteer"));
 
