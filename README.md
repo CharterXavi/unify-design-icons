@@ -1,3 +1,9 @@
-# UNIFY Design System by Charter Healthcare - Icons
+# UNIFY Design System Icons
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### Welcome to the UNIFY Design Icon set by Charter Healthcare!
+
+Currently, the icon set in this directory at /src/components is the current published NPM Package. The rest of this repo serves as a full Create React App app used to test the SVG Icons in development. 
+
+Install the icon set in your project using NPM:
+
+```npm i unify-design-icons```
