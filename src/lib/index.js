@@ -3,11 +3,16 @@ import BookIcon from './components/book'
 import BottleIcon from './components/bottle'
 import BriefcaseIcon from './components/briefcase'
 import CCMIcon from './components/ccm'
+import CharterLogoDark from './components/charter-logo-dark'
+import CharterLogoLight from './components/charter-logo-light'
 import CheckboxIcon from './components/checkbox'
 import ClockIcon from './components/clock'
-import CompassIcon from './components/compass'
+import CompassIconDark from './components/compass-dark'
+import CompassIconLight from './components/compass-light'
 import CrossIcon from './components/cross'
 import DataIcon from './components/data'
+import FacebookIconDark from './components/facebook-dark'
+import FacebookIconLight from './components/facebook-light'
 import FlowerIcon from './components/flower'
 import GroupIcon from './components/group'
 import HealthcareIcon from './components/healthcare'
@@ -16,9 +21,12 @@ import HeroGraphic from './components/hero-graphic'
 import HomeIcon from './components/home'
 import HospitalIcon from './components/hospital'
 import HouseIcon from './components/house'
+import InstagramIconDark from './components/instagram-dark'
+import InstagramIconLight from './components/instagram-light'
 import InternIcon from './components/intern'
 import LikeIcon from './components/like'
-import Logo from './components/logo'
+import LinkedinIconDark from './components/linkedin-dark'
+import LinkedinIconLight from './components/linkedin-light'
 import MedkitIcon from './components/medkit'
 import MoneybagIcon from './components/moneybag'
 import NetworkIcon from './components/network'
@@ -29,6 +37,8 @@ import PlusSignIcon from './components/plus-sign'
 import SocialIcon from './components/social'
 import StethoscopeIcon from './components/stethoscope'
 import TargetIcon from './components/target'
+import TwitterIconDark from './components/twitter-dark'
+import TwitterIconLight from './components/twitter-light'
 import VolunteerIcon from './components/volunteer'
 
 export { 
@@ -39,7 +49,8 @@ export {
     CCMIcon,
     CheckboxIcon,
     ClockIcon,
-    CompassIcon,
+    CompassIconLight,
+    CompassIconDark,
     CrossIcon,
     DataIcon,
     FlowerIcon,
@@ -52,7 +63,8 @@ export {
     HospitalIcon,
     InternIcon, 
     LikeIcon,
-    Logo,
+    CharterLogoLight,
+    CharterLogoDark,
     MedkitIcon,
     MoneybagIcon,
     NetworkIcon,
@@ -63,5 +75,13 @@ export {
     SocialIcon,
     StethoscopeIcon,
     TargetIcon,
-    VolunteerIcon
+    VolunteerIcon,
+    FacebookIconDark,
+    FacebookIconLight,
+    InstagramIconDark,
+    InstagramIconLight,
+    LinkedinIconDark,
+    LinkedinIconLight,
+    TwitterIconDark,
+    TwitterIconLight
 }
