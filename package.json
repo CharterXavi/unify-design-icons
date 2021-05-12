@@ -2,15 +2,24 @@
   "name": "unify-design-icons",
   "description": "An SVG Icon set from UNIFY Design System by Charter Healthcare",
   "author": "Branon Eusebio",
-  "keywords": ["react", "components", "ui", "design system", "icons"],
-  "version": "0.1.0",
+  "keywords": [
+    "react",
+    "components",
+    "ui",
+    "design system",
+    "icons"
+  ],
+  "version": "0.2.0",
   "private": false,
   "main": "dist/index.js",
   "module": "dist/index.js",
-  "files": [ "dist", "README.md" ],
+  "files": [
+    "dist",
+    "README.md"
+  ],
   "repository": {
-      "type": "git",
-      "url": "git+https://github.com/charterbran/unify-design-icons.git"
+    "type": "git",
+    "url": "git+https://github.com/charterbran/unify-design-icons.git"
   },
   "dependencies": {
     "@babel/polyfill": "^7.12.1",

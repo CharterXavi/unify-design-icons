@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Logo = (props) => {
+const CharterLogoLight = (props) => {
 
 return (
   <svg className={props.className} width="673" height="198" viewBox="0 0 673 198" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -21,4 +21,4 @@ return (
   );
 }
 
-export default Logo;
+export default CharterLogoLight;
