@@ -9,14 +9,14 @@ var _react = _interopRequireDefault(require("react"));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-const Logo = () => {
+const CharterLogoLight = props => {
   return /*#__PURE__*/_react.default.createElement("svg", {
+    className: props.className,
     width: "673",
     height: "198",
     viewBox: "0 0 673 198",
     fill: "none",
-    xmlns: "http://www.w3.org/2000/svg",
-    className: "Logo"
+    xmlns: "http://www.w3.org/2000/svg"
   }, /*#__PURE__*/_react.default.createElement("path", {
     fillRule: "evenodd",
     clipRule: "evenodd",
@@ -69,5 +69,5 @@ const Logo = () => {
   }));
 };
 
-var _default = Logo;
+var _default = CharterLogoLight;
 exports.default = _default;

@@ -11,12 +11,12 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
 const HeroGraphic = props => {
   return /*#__PURE__*/_react.default.createElement("svg", {
+    className: props.className,
     width: "572",
     height: "531",
     viewBox: "0 0 572 531",
     fill: "none",
-    xmlns: "http://www.w3.org/2000/svg",
-    className: props.classProp
+    xmlns: "http://www.w3.org/2000/svg"
   }, /*#__PURE__*/_react.default.createElement("g", {
     filter: "url(#ba)"
   }, /*#__PURE__*/_react.default.createElement("path", {

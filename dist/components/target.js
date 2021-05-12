@@ -9,9 +9,9 @@ var _react = _interopRequireDefault(require("react"));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-const TargetIcon = () => {
+const TargetIcon = props => {
   return /*#__PURE__*/_react.default.createElement("svg", {
-    className: "icon",
+    className: props.className,
     viewBox: "0 0 40 40",
     fill: "none",
     xmlns: "http://www.w3.org/2000/svg"
