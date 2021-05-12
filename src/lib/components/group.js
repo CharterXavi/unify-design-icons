@@ -1,9 +1,9 @@
 import React from 'react';
 
-const GroupIcon = () => {
+const GroupIcon = (props) => {
 
 return (
-  <svg className='icon' viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <svg className={props.className} viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
     <path d="M10 13.75C12.0711 13.75 13.75 12.0711 13.75 10C13.75 7.92893 12.0711 6.25 10 6.25C7.92893 6.25 6.25 7.92893 6.25 10C6.25 12.0711 7.92893 13.75 10 13.75Z" fill="#282E3E"/>
     <path d="M7.3 15C6.02975 15 5 16.0297 5 17.3V28.95C5 30.2203 6.02975 31.25 7.3 31.25H12.7C13.9703 31.25 15 30.2203 15 28.95V17.3C15 16.0297 13.9703 15 12.7 15H7.3Z" fill="#282E3E"/>
     <path d="M30 13.75C32.0711 13.75 33.75 12.0711 33.75 10C33.75 7.92893 32.0711 6.25 30 6.25C27.9289 6.25 26.25 7.92893 26.25 10C26.25 12.0711 27.9289 13.75 30 13.75Z" fill="white"/>

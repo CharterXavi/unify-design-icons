@@ -1,9 +1,9 @@
 import React from 'react';
 
-const HospitalIcon = () => {
+const HospitalIcon = (props) => {
 
 return (
-  <svg className='icon' viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <svg className={props.className} viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
     <rect x="4" y="17" width="32" height="18" rx="1.02857" fill="#282E3E"/>
     <rect width="30" height="16" rx="1.02857" transform="matrix(0 -1 -1 0 28 35)" fill="url(#hospital)"/>
     <path d="M21.4911 9.87286C21.4911 9.39079 21.0922 9 20.6001 9H19.6617C19.1696 9 18.7707 9.39079 18.7707 9.87286V11.3214H17.3945C16.9023 11.3214 16.5034 11.7122 16.5034 12.1943V13.2343C16.5034 13.7164 16.9023 14.1072 17.3945 14.1072H18.7707V15.5557C18.7707 16.0378 19.1696 16.4286 19.6617 16.4286H20.6001C21.0922 16.4286 21.4911 16.0378 21.4911 15.5557V14.1072H22.8669C23.359 14.1072 23.7579 13.7164 23.7579 13.2343V12.1943C23.7579 11.7122 23.359 11.3214 22.8669 11.3214H21.4911V9.87286Z" fill="white"/>
