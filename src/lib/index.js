@@ -7,6 +7,7 @@ import CharterLogoLight from './charter-logo-light'
 import CheckboxIcon from './checkbox'
 import ClockIcon from './clock'
 import ClockIconGrey from './clock-grey'
+import ColorsIcon from './colors'
 import CompassIconDark from './compass-dark'
 import CompassIconLight from './compass-light'
 import CrossIcon from './cross'
@@ -14,6 +15,7 @@ import DataIcon from './data'
 import FacebookIconDark from './facebook-dark'
 import FacebookIconLight from './facebook-light'
 import FlowerIcon from './flower'
+import FormIcon from './form'
 import GearsIcon from './gears'
 import GearsIconGrey from './gears-grey'
 import GroupIcon from './group'
@@ -38,11 +40,19 @@ import PhoneIcon from './phone'
 import PillIcon from './pill'
 import PinIcon from './pin'
 import PlusSignIcon from './plus-sign'
+import RulerIcon from './ruler'
+import SearchIcon from './search'
+import ShapesIcon from './shapes'
 import SocialIcon from './social'
+import SquaresIcon from './squares'
+import SquaresIconGrey from './squares-grey'
 import StethoscopeIcon from './stethoscope'
 import TargetIcon from './target'
+import TelescopeIcon from './telescope'
 import TwitterIconDark from './twitter-dark'
 import TwitterIconLight from './twitter-light'
+import TypographyIcon from './typography'
+import VisionIcon from './vision'
 import VolunteerIcon from './volunteer'
 import VolunteerIconGrey from './volunteer-grey'
 
@@ -94,7 +104,17 @@ const returnLibrary = () => {
         LinkedinIconDark: LinkedinIconDark,
         LinkedinIconLight: LinkedinIconLight,
         TwitterIconDark: TwitterIconDark,
-        TwitterIconLight: TwitterIconLight 
+        TwitterIconLight: TwitterIconLight,
+        VisionIcon: VisionIcon, 
+        SquaresIcon: SquaresIcon, 
+        SquaresIconGrey: SquaresIconGrey, 
+        TelescopeIcon: TelescopeIcon, 
+        TypographyIcon: TypographyIcon, 
+        RulerIcon: RulerIcon, 
+        SearchIcon: SearchIcon, 
+        ShapesIcon: ShapesIcon, 
+        ColorsIcon: ColorsIcon,
+        FormIcon: FormIcon
     }
 }
 export default returnLibrary()
