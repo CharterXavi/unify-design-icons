@@ -617,6 +617,42 @@ var ClockIconGrey = function ClockIconGrey(props) {
   }));
 };
 
+var ColorsIcon = function ColorsIcon(props) {
+  return /*#__PURE__*/React.createElement("svg", {
+    className: props.className,
+    viewBox: "0 0 40 40",
+    fill: "none",
+    xmlns: "http://www.w3.org/2000/svg"
+  }, /*#__PURE__*/React.createElement("path", {
+    d: "M33.5039 19.0137C33.5039 20.0615 32.5947 20.8721 31.4865 20.8721H27.2322C25.6275 20.8721 24.2453 20.9944 23.1579 21.27C22.0811 21.5428 21.2292 21.9822 20.7735 22.6692C20.3009 23.3819 20.3157 24.2619 20.752 25.2558C21.1848 26.2418 22.0511 27.3917 23.3772 28.7248C23.6634 29.0125 23.9137 29.2886 24.1314 29.5533C24.6996 30.2439 24.7424 31.027 24.4343 31.7033C24.121 32.3912 23.4352 32.9815 22.5277 33.2129C21.3788 33.5058 20.1752 33.6616 18.9349 33.6616C10.8904 33.6616 4.36585 27.1053 4.36585 19.0137C4.36585 10.9221 10.8904 4.36585 18.9349 4.36585C26.9793 4.36585 33.5039 10.9221 33.5039 19.0137ZM18.9349 11.5947C20.3607 11.5947 21.5133 10.4332 21.5133 9.00457C21.5133 7.57592 20.3607 6.41447 18.9349 6.41447C17.5091 6.41447 16.3565 7.57592 16.3565 9.00457C16.3565 10.4332 17.5091 11.5947 18.9349 11.5947ZM26.6789 14.9311C28.1048 14.9311 29.2573 13.7696 29.2573 12.341C29.2573 10.9123 28.1048 9.75085 26.6789 9.75085C25.2531 9.75085 24.1005 10.9123 24.1005 12.341C24.1005 13.7696 25.2531 14.9311 26.6789 14.9311ZM11.1909 14.9311C12.6167 14.9311 13.7693 13.7696 13.7693 12.341C13.7693 10.9123 12.6167 9.75085 11.1909 9.75085C9.76504 9.75085 8.61245 10.9123 8.61245 12.341C8.61245 13.7696 9.76504 14.9311 11.1909 14.9311ZM6.39987 20.1258C6.39987 21.5545 7.55246 22.7159 8.9783 22.7159C10.4041 22.7159 11.5567 21.5545 11.5567 20.1258C11.5567 18.6972 10.4041 17.5357 8.9783 17.5357C7.55246 17.5357 6.39987 18.6972 6.39987 20.1258Z",
+    fill: "url(#colors)",
+    stroke: "#282E3E",
+    strokeWidth: "0.7317"
+  }), /*#__PURE__*/React.createElement("path", {
+    d: "M35.8105 9.06198C36.1384 8.58574 36.0306 7.925 35.5696 7.58618C35.1086 7.24736 34.469 7.35877 34.141 7.83501L19.2061 29.5215C19.0753 29.7114 19.0138 29.9307 19.0164 30.1471C18.9332 30.2547 18.8499 30.371 18.7645 30.4903C18.4946 30.8672 18.2035 31.2737 17.8285 31.5251C17.4438 31.783 17.2969 32.28 17.1122 32.9052C16.8985 33.6283 16.6342 34.5229 15.8926 35.4176C14.5097 37.0858 19.7645 34.8615 20.0411 32.6373C20.1252 31.9609 20.2092 31.4902 20.2855 31.1626C20.5157 31.1043 20.7274 30.9636 20.8756 30.7485L35.8105 9.06198Z",
+    fill: "#282E3E"
+  }), /*#__PURE__*/React.createElement("defs", null, /*#__PURE__*/React.createElement("linearGradient", {
+    id: "colors",
+    x1: "5.60017",
+    y1: "34.0274",
+    x2: "40.3553",
+    y2: "18.931",
+    gradientUnits: "userSpaceOnUse"
+  }, /*#__PURE__*/React.createElement("stop", {
+    offset: "0.109375",
+    stopColor: "#F14D70"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: "0.317708",
+    stopColor: "#FF008A"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: "0.520833",
+    stopColor: "#FF446C"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: "0.869792",
+    stopColor: "#FFB016"
+  }))));
+};
+
 var CompassIconDark = function CompassIconDark(props) {
   return /*#__PURE__*/React.createElement("svg", {
     className: props.className,
@@ -929,6 +965,73 @@ var FlowerIcon = function FlowerIcon(props) {
     y1: "33.2345",
     x2: "18.1367",
     y2: "26.6428",
+    gradientUnits: "userSpaceOnUse"
+  }, /*#__PURE__*/React.createElement("stop", {
+    offset: "0.109375",
+    stopColor: "#F14D70"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: "0.317708",
+    stopColor: "#FF008A"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: "0.520833",
+    stopColor: "#FF446C"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: "0.869792",
+    stopColor: "#FFB016"
+  }))));
+};
+
+var FormIcon = function FormIcon(props) {
+  return /*#__PURE__*/React.createElement("svg", {
+    className: props.className,
+    width: "40",
+    height: "40",
+    viewBox: "0 0 40 40",
+    fill: "none",
+    xmlns: "http://www.w3.org/2000/svg"
+  }, /*#__PURE__*/React.createElement("path", {
+    d: "M15.5792 6C14.7653 6 14.1055 6.73741 14.1055 7.64706C14.1055 8.5567 14.7653 9.29412 15.5792 9.29412H32.2807C33.0946 9.29412 33.7544 8.5567 33.7544 7.64706C33.7544 6.73741 33.0946 6 32.2807 6H15.5792Z",
+    fill: "#282E3E"
+  }), /*#__PURE__*/React.createElement("path", {
+    d: "M7.47367 10.9412C6.65978 10.9412 6 11.6787 6 12.5883C6 13.4979 6.65978 14.2354 7.47367 14.2354H32.526C33.3399 14.2354 33.9997 13.4979 33.9997 12.5883C33.9997 11.6787 33.3399 10.9412 32.526 10.9412H7.47367Z",
+    fill: "#282E3E"
+  }), /*#__PURE__*/React.createElement("path", {
+    d: "M7.47367 15.8824C6.65978 15.8824 6 16.6199 6 17.5295C6 18.4392 6.65978 19.1766 7.47367 19.1766H32.526C33.3399 19.1766 33.9997 18.4392 33.9997 17.5295C33.9997 16.6199 33.3399 15.8824 32.526 15.8824H7.47367Z",
+    fill: "white"
+  }), /*#__PURE__*/React.createElement("path", {
+    d: "M15.8248 20.8237C15.0109 20.8237 14.3511 21.5611 14.3511 22.4707C14.3511 23.3804 15.0109 24.1178 15.8248 24.1178H32.5263C33.3402 24.1178 34 23.3804 34 22.4707C34 21.5611 33.3402 20.8237 32.5263 20.8237H15.8248Z",
+    fill: "white"
+  }), /*#__PURE__*/React.createElement("path", {
+    d: "M7.47367 25.7646C6.65978 25.7646 6 26.5021 6 27.4117C6 28.3214 6.65978 29.0588 7.47367 29.0588H32.526C33.3399 29.0588 33.9997 28.3214 33.9997 27.4117C33.9997 26.5021 33.3399 25.7646 32.526 25.7646H7.47367Z",
+    fill: "url(#form)"
+  }), /*#__PURE__*/React.createElement("path", {
+    d: "M19.2631 30.7059C18.4492 30.7059 17.7894 31.4433 17.7894 32.353C17.7894 33.2626 18.4492 34 19.2631 34H32.5261C33.34 34 33.9997 33.2626 33.9997 32.353C33.9997 31.4433 33.34 30.7059 32.5261 30.7059H19.2631Z",
+    fill: "url(#form1)"
+  }), /*#__PURE__*/React.createElement("defs", null, /*#__PURE__*/React.createElement("linearGradient", {
+    id: "form",
+    x1: "7.49999",
+    y1: "34",
+    x2: "19.5865",
+    y2: "16.0562",
+    gradientUnits: "userSpaceOnUse"
+  }, /*#__PURE__*/React.createElement("stop", {
+    offset: "0.109375",
+    stopColor: "#F14D70"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: "0.317708",
+    stopColor: "#FF008A"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: "0.520833",
+    stopColor: "#FF446C"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: "0.869792",
+    stopColor: "#FFB016"
+  })), /*#__PURE__*/React.createElement("linearGradient", {
+    id: "form1",
+    x1: "7.49999",
+    y1: "34",
+    x2: "19.5865",
+    y2: "16.0562",
     gradientUnits: "userSpaceOnUse"
   }, /*#__PURE__*/React.createElement("stop", {
     offset: "0.109375",
@@ -3563,6 +3666,185 @@ var PlusSign = function PlusSign(props) {
   }))));
 };
 
+var RulerIcon = function RulerIcon(props) {
+  return /*#__PURE__*/React.createElement("svg", {
+    className: props.className,
+    width: "40",
+    height: "40",
+    viewBox: "0 0 40 40",
+    fill: "none",
+    xmlns: "http://www.w3.org/2000/svg"
+  }, /*#__PURE__*/React.createElement("path", {
+    d: "M14.75 5C15.1642 5 15.5 5.3276 15.5 5.73171V24.0244C15.5 24.0519 15.5015 24.0791 15.5046 24.1059L5.00014 34.3542L5 5.73171C5 5.3276 5.33578 5 5.75 5H14.75Z",
+    fill: "url(#ruler)"
+  }), /*#__PURE__*/React.createElement("path", {
+    d: "M5.39881 35H34.25C34.6642 35 35 34.6724 35 34.2683V25.4878C35 25.0837 34.6642 24.7561 34.25 24.7561H16.2499C16.1463 24.7561 16.0476 24.7356 15.9578 24.6985L5.39881 35Z",
+    fill: "url(#ruler1)"
+  }), /*#__PURE__*/React.createElement("path", {
+    d: "M10.2501 10.122C10.2501 9.71792 10.5859 9.39032 11.0001 9.39032H15.5001V10.8537H11.0001C10.5859 10.8537 10.2501 10.5261 10.2501 10.122Z",
+    fill: "white"
+  }), /*#__PURE__*/React.createElement("path", {
+    d: "M10.25 15.244C10.25 14.8399 10.5858 14.5123 11 14.5123H15.5V15.9757H11C10.5858 15.9757 10.25 15.6481 10.25 15.244Z",
+    fill: "white"
+  }), /*#__PURE__*/React.createElement("path", {
+    d: "M10.25 20.366C10.25 19.9619 10.5858 19.6343 11 19.6343H15.5V21.0977H11C10.5858 21.0977 10.25 20.7701 10.25 20.366Z",
+    fill: "white"
+  }), /*#__PURE__*/React.createElement("path", {
+    d: "M19.25 29.8782C18.8357 29.8782 18.5 29.5506 18.5 29.1465V24.7562H20V29.1465C20 29.5506 19.6642 29.8782 19.25 29.8782Z",
+    fill: "white"
+  }), /*#__PURE__*/React.createElement("path", {
+    d: "M24.4998 29.8782C24.0856 29.8782 23.7498 29.5506 23.7498 29.1465V24.7562H25.2498V29.1465C25.2498 29.5506 24.914 29.8782 24.4998 29.8782Z",
+    fill: "white"
+  }), /*#__PURE__*/React.createElement("path", {
+    d: "M29.7498 29.8782C29.3356 29.8782 28.9998 29.5506 28.9998 29.1465V24.7562H30.4998V29.1465C30.4998 29.5506 30.164 29.8782 29.7498 29.8782Z",
+    fill: "white"
+  }), /*#__PURE__*/React.createElement("defs", null, /*#__PURE__*/React.createElement("linearGradient", {
+    id: "ruler",
+    x1: "6.60714",
+    y1: "35",
+    x2: "41.4552",
+    y2: "19.7833",
+    gradientUnits: "userSpaceOnUse"
+  }, /*#__PURE__*/React.createElement("stop", {
+    offset: "0.109375",
+    stopColor: "#F14D70"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: "0.317708",
+    stopColor: "#FF008A"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: "0.520833",
+    stopColor: "#FF446C"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: "0.869792",
+    stopColor: "#FFB016"
+  })), /*#__PURE__*/React.createElement("linearGradient", {
+    id: "ruler1",
+    x1: "6.60714",
+    y1: "35",
+    x2: "41.4552",
+    y2: "19.7833",
+    gradientUnits: "userSpaceOnUse"
+  }, /*#__PURE__*/React.createElement("stop", {
+    offset: "0.109375",
+    stopColor: "#F14D70"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: "0.317708",
+    stopColor: "#FF008A"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: "0.520833",
+    stopColor: "#FF446C"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: "0.869792",
+    stopColor: "#FFB016"
+  }))));
+};
+
+var SearchIcon = function SearchIcon(props) {
+  return /*#__PURE__*/React.createElement("svg", {
+    className: props.className,
+    width: "40",
+    height: "40",
+    viewBox: "0 0 40 40",
+    fill: "none",
+    xmlns: "http://www.w3.org/2000/svg"
+  }, /*#__PURE__*/React.createElement("path", {
+    fillRule: "evenodd",
+    clipRule: "evenodd",
+    d: "M13.5884 6.60081L13.1276 5L12.6669 6.60081L11.0913 7.06897L12.6669 7.53712L13.1276 9.13793L13.5884 7.53712L15.164 7.06897L13.5884 6.60081ZM8.49714 10.7388L8.03636 9.13794L7.57559 10.7388L6 11.2069L7.57559 11.6751L8.03636 13.2759L8.49714 11.6751L10.0727 11.2069L8.49714 10.7388ZM24.836 31.8965L25.1816 33.0972L26.3633 33.4483L25.1816 33.7994L24.836 35L24.4904 33.7994L23.3088 33.4483L24.4904 33.0972L24.836 31.8965ZM31.8337 30.9942L31.2001 28.7931L30.5665 30.9942L28.4001 31.6379L30.5665 32.2816L31.2001 34.4828L31.8337 32.2816L34.0001 31.6379L31.8337 30.9942Z",
+    fill: "url(#search)"
+  }), /*#__PURE__*/React.createElement("path", {
+    d: "M18.4724 21.5517L6.50879 34.4828",
+    stroke: "#282E3E",
+    strokeWidth: "3.62069",
+    strokeLinecap: "round"
+  }), /*#__PURE__*/React.createElement("path", {
+    d: "M32.7151 15.3448C32.7151 20.3556 28.7203 24.3966 23.8182 24.3966C18.9162 24.3966 14.9214 20.3556 14.9214 15.3448C14.9214 10.334 18.9162 6.2931 23.8182 6.2931C28.7203 6.2931 32.7151 10.334 32.7151 15.3448Z",
+    fill: "url(#search1)",
+    stroke: "#282E3E",
+    "stroke-width": "1.55172"
+  }), /*#__PURE__*/React.createElement("path", {
+    d: "M27.9185 9.39654C27.9185 10.1725 26.6458 9.13786 24.3549 8.8793C22.064 8.62074 20.5368 9.39651 20.7913 8.62068C21.0459 7.84485 22.5731 7.58622 24.3549 7.5862C26.1367 7.58618 27.9185 8.62056 27.9185 9.39654Z",
+    fill: "white"
+  }), /*#__PURE__*/React.createElement("defs", null, /*#__PURE__*/React.createElement("linearGradient", {
+    id: "search",
+    x1: "7.5",
+    y1: "35",
+    x2: "40.7103",
+    y2: "21.4652",
+    gradientUnits: "userSpaceOnUse"
+  }, /*#__PURE__*/React.createElement("stop", {
+    offset: "0.109375",
+    stopColor: "#F14D70"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: "0.317708",
+    stopColor: "#FF008A"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: "0.520833",
+    stopColor: "#FF446C"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: "0.869792",
+    stopColor: "#FFB016"
+  })), /*#__PURE__*/React.createElement("linearGradient", {
+    id: "search1",
+    x1: "15.1819",
+    y1: "25.1724",
+    x2: "37.7667",
+    y2: "15.466",
+    gradientUnits: "userSpaceOnUse"
+  }, /*#__PURE__*/React.createElement("stop", {
+    offset: "0.109375",
+    stopColor: "#F14D70"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: "0.317708",
+    stopColor: "#FF008A"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: "0.520833",
+    stopColor: "#FF446C"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: "0.869792",
+    stopColor: "#FFB016"
+  }))));
+};
+
+var ShapesIcon = function ShapesIcon(props) {
+  return /*#__PURE__*/React.createElement("svg", {
+    className: props.className,
+    width: "40",
+    height: "40",
+    viewBox: "0 0 40 40",
+    fill: "none",
+    xmlns: "http://www.w3.org/2000/svg"
+  }, /*#__PURE__*/React.createElement("path", {
+    d: "M22.3076 24.2024C22.3076 23.457 22.939 22.8528 23.7179 22.8528H33.5897C34.3685 22.8528 34.9999 23.457 34.9999 24.2024V33.6503C34.9999 34.3957 34.3685 35 33.5897 35H23.7179C22.939 35 22.3076 34.3957 22.3076 33.6503V24.2024Z",
+    fill: "url(#shapes)"
+  }), /*#__PURE__*/React.createElement("path", {
+    d: "M24.4372 5.7362C25.0294 4.7546 26.5097 4.7546 27.1019 5.7362L34.4298 17.8835C35.022 18.865 34.2818 20.092 33.0975 20.092H18.4416C17.2573 20.092 16.5171 18.865 17.1093 17.8835L24.4372 5.7362Z",
+    fill: "#282E3E"
+  }), /*#__PURE__*/React.createElement("path", {
+    d: "M18.8462 28.3741C18.8462 32.0334 15.7466 34.9999 11.9231 34.9999C8.09957 34.9999 5 32.0334 5 28.3741C5 24.7148 8.09957 21.7484 11.9231 21.7484C15.7466 21.7484 18.8462 24.7148 18.8462 28.3741Z",
+    fill: "white"
+  }), /*#__PURE__*/React.createElement("defs", null, /*#__PURE__*/React.createElement("linearGradient", {
+    id: "shapes",
+    x1: "22.9876",
+    y1: "35",
+    x2: "37.5175",
+    y2: "28.3707",
+    gradientUnits: "userSpaceOnUse"
+  }, /*#__PURE__*/React.createElement("stop", {
+    offset: "0.109375",
+    stopColor: "#F14D70"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: "0.317708",
+    stopColor: "#FF008A"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: "0.520833",
+    stopColor: "#FF446C"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: "0.869792",
+    stopColor: "#FFB016"
+  }))));
+};
+
 var SocialIcon = function SocialIcon(props) {
   return /*#__PURE__*/React.createElement("svg", {
     className: props.className,
@@ -3623,6 +3905,128 @@ var SocialIcon = function SocialIcon(props) {
   }))));
 };
 
+var SquaresIcon = function SquaresIcon(props) {
+  return /*#__PURE__*/React.createElement("svg", {
+    className: props.className,
+    width: "40",
+    height: "40",
+    viewBox: "0 0 40 40",
+    fill: "none",
+    xmlns: "http://www.w3.org/2000/svg"
+  }, /*#__PURE__*/React.createElement("path", {
+    d: "M5.5 3C4.11929 3 3 4.11929 3 5.5V15.5C3 16.8807 4.11929 18 5.5 18H15.5C16.8807 18 18 16.8807 18 15.5V5.5C18 4.11929 16.8807 3 15.5 3H5.5Z",
+    fill: "url(#squares)"
+  }), /*#__PURE__*/React.createElement("path", {
+    d: "M5.5 22C4.11929 22 3 23.1193 3 24.5V34.5C3 35.8807 4.11929 37 5.5 37H15.5C16.8807 37 18 35.8807 18 34.5V24.5C18 23.1193 16.8807 22 15.5 22H5.5Z",
+    fill: "url(#squares1)"
+  }), /*#__PURE__*/React.createElement("path", {
+    d: "M22 5.5C22 4.11929 23.1193 3 24.5 3H34.5C35.8807 3 37 4.11929 37 5.5V15.5C37 16.8807 35.8807 18 34.5 18H24.5C23.1193 18 22 16.8807 22 15.5V5.5Z",
+    fill: "url(#squares2)"
+  }), /*#__PURE__*/React.createElement("path", {
+    d: "M24.5 22C23.1193 22 22 23.1193 22 24.5V34.5C22 35.8807 23.1193 37 24.5 37H34.5C35.8807 37 37 35.8807 37 34.5V24.5C37 23.1193 35.8807 22 34.5 22H24.5Z",
+    fill: "url(#squares3)"
+  }), /*#__PURE__*/React.createElement("defs", null, /*#__PURE__*/React.createElement("linearGradient", {
+    id: "squares",
+    x1: "4.82143",
+    y1: "37",
+    x2: "44.3159",
+    y2: "19.7544",
+    gradientUnits: "userSpaceOnUse"
+  }, /*#__PURE__*/React.createElement("stop", {
+    offset: "0.109375",
+    stopColor: "#F14D70"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: "0.317708",
+    stopColor: "#FF008A"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: "0.520833",
+    stopColor: "#FF446C"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: "0.869792",
+    stopColor: "#FFB016"
+  })), /*#__PURE__*/React.createElement("linearGradient", {
+    id: "squares1",
+    x1: "4.82143",
+    y1: "37",
+    x2: "44.3159",
+    y2: "19.7544",
+    gradientUnits: "userSpaceOnUse"
+  }, /*#__PURE__*/React.createElement("stop", {
+    offset: "0.109375",
+    stopColor: "#F14D70"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: "0.317708",
+    stopColor: "#FF008A"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: "0.520833",
+    stopColor: "#FF446C"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: "0.869792",
+    stopColor: "#FFB016"
+  })), /*#__PURE__*/React.createElement("linearGradient", {
+    id: "squares2",
+    x1: "4.82143",
+    y1: "37",
+    x2: "44.3159",
+    y2: "19.7544",
+    gradientUnits: "userSpaceOnUse"
+  }, /*#__PURE__*/React.createElement("stop", {
+    offset: "0.109375",
+    stopColor: "#F14D70"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: "0.317708",
+    stopColor: "#FF008A"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: "0.520833",
+    stopColor: "#FF446C"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: "0.869792",
+    stopColor: "#FFB016"
+  })), /*#__PURE__*/React.createElement("linearGradient", {
+    id: "squares3",
+    x1: "4.82143",
+    y1: "37",
+    x2: "44.3159",
+    y2: "19.7544",
+    gradientUnits: "userSpaceOnUse"
+  }, /*#__PURE__*/React.createElement("stop", {
+    offset: "0.109375",
+    stopColor: "#F14D70"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: "0.317708",
+    stopColor: "#FF008A"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: "0.520833",
+    stopColor: "#FF446C"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: "0.869792",
+    stopColor: "#FFB016"
+  }))));
+};
+
+var SquaresIconGrey = function SquaresIconGrey(props) {
+  return /*#__PURE__*/React.createElement("svg", {
+    className: props.className,
+    width: "40",
+    height: "40",
+    viewBox: "0 0 40 40",
+    fill: "none",
+    xmlns: "http://www.w3.org/2000/svg"
+  }, /*#__PURE__*/React.createElement("path", {
+    d: "M5.5 3C4.11929 3 3 4.11929 3 5.5V15.5C3 16.8807 4.11929 18 5.5 18H15.5C16.8807 18 18 16.8807 18 15.5V5.5C18 4.11929 16.8807 3 15.5 3H5.5Z",
+    fill: "#282E3E"
+  }), /*#__PURE__*/React.createElement("path", {
+    d: "M5.5 22C4.11929 22 3 23.1193 3 24.5V34.5C3 35.8807 4.11929 37 5.5 37H15.5C16.8807 37 18 35.8807 18 34.5V24.5C18 23.1193 16.8807 22 15.5 22H5.5Z",
+    fill: "#282E3E"
+  }), /*#__PURE__*/React.createElement("path", {
+    d: "M22 5.5C22 4.11929 23.1193 3 24.5 3H34.5C35.8807 3 37 4.11929 37 5.5V15.5C37 16.8807 35.8807 18 34.5 18H24.5C23.1193 18 22 16.8807 22 15.5V5.5Z",
+    fill: "#282E3E"
+  }), /*#__PURE__*/React.createElement("path", {
+    d: "M24.5 22C23.1193 22 22 23.1193 22 24.5V34.5C22 35.8807 23.1193 37 24.5 37H34.5C35.8807 37 37 35.8807 37 34.5V24.5C37 23.1193 35.8807 22 34.5 22H24.5Z",
+    fill: "#282E3E"
+  }));
+};
+
 var StethoscopeIcon = function StethoscopeIcon(props) {
   return /*#__PURE__*/React.createElement("svg", {
     className: props.className,
@@ -3645,6 +4049,164 @@ var StethoscopeIcon = function StethoscopeIcon(props) {
     y1: "36",
     x2: "42.8856",
     y2: "19.7689",
+    gradientUnits: "userSpaceOnUse"
+  }, /*#__PURE__*/React.createElement("stop", {
+    offset: "0.109375",
+    stopColor: "#F14D70"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: "0.317708",
+    stopColor: "#FF008A"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: "0.520833",
+    stopColor: "#FF446C"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: "0.869792",
+    stopColor: "#FFB016"
+  }))));
+};
+
+var TelescopeIcon = function TelescopeIcon(props) {
+  return /*#__PURE__*/React.createElement("svg", {
+    className: props.className,
+    width: "40",
+    height: "40",
+    viewBox: "0 0 40 40",
+    fill: "none",
+    xmlns: "http://www.w3.org/2000/svg"
+  }, /*#__PURE__*/React.createElement("path", {
+    d: "M19.1773 26.0651L19.2588 25.8363L19.0312 25.7518L18.9918 25.7371C18.8512 25.6849 18.7799 25.5293 18.8285 25.3932L20.6425 20.3077C20.6902 20.1739 20.8378 20.1037 20.9761 20.155L21.0617 19.9244L20.9761 20.155L21.1043 20.2027L21.2227 20.2466L21.3274 20.1761C21.3903 20.1337 21.4727 20.121 21.5521 20.1504C21.6318 20.1801 21.6892 20.2453 21.7116 20.3224L21.7463 20.4411L21.8622 20.4841L21.8868 20.4933C22.0273 20.5455 22.0986 20.7011 22.05 20.8372L20.2361 25.9228C20.1922 26.0456 20.0643 26.1146 19.9371 26.0857L19.7242 26.0373L19.6508 26.243L16.7624 34.3408C16.7172 34.4676 16.5771 34.5344 16.4456 34.4856C16.312 34.4359 16.2443 34.2879 16.2904 34.1586L19.1773 26.0651ZM23.1287 20.4194L23.2256 20.3834L23.2677 20.289C23.2955 20.2266 23.347 20.1757 23.415 20.1504C23.4828 20.1253 23.5523 20.1309 23.6103 20.1592L23.705 20.2053L23.8038 20.1686L23.8401 20.1551L23.7549 19.9257L23.8401 20.1551C23.9784 20.1038 24.1261 20.174 24.1738 20.3077L25.9724 25.3505C26.015 25.4697 25.9657 25.6047 25.857 25.6712L25.6865 25.7755L25.7537 25.9637L28.6767 34.1586C28.7228 34.2879 28.6551 34.4359 28.5214 34.4856C28.39 34.5344 28.2499 34.4676 28.2047 34.3408L25.2849 26.155L25.2011 25.9202L24.9675 26.007L24.8985 26.0326C24.7602 26.084 24.6126 26.0138 24.5649 25.88L22.7662 20.8373C22.7176 20.7012 22.7889 20.5456 22.9295 20.4934L23.1287 20.4194Z",
+    fill: "white",
+    stroke: "#282E3E",
+    strokeWidth: "0.492063"
+  }), /*#__PURE__*/React.createElement("path", {
+    d: "M21.3031 4.84021L21.5488 4L21.7946 4.84021L22.6349 5.08593L21.7946 5.33165L21.5488 6.17187L21.3031 5.33165L20.4628 5.08593L21.3031 4.84021Z",
+    fill: "url(#telescope)"
+  }), /*#__PURE__*/React.createElement("path", {
+    d: "M24.0183 7.01202L24.2641 6.17181L24.5098 7.01202L25.3501 7.25774L24.5098 7.50346L24.2641 8.34367L24.0183 7.50346L23.178 7.25774L24.0183 7.01202Z",
+    fill: "url(#telescope1)"
+  }), /*#__PURE__*/React.createElement("path", {
+    d: "M15.3038 18.1171L15.1195 18.7473L14.4893 18.9316L15.1195 19.1159L15.3038 19.746L15.4881 19.1159L16.1183 18.9316L15.4881 18.7473L15.3038 18.1171Z",
+    fill: "url(#telescope2)"
+  }), /*#__PURE__*/React.createElement("path", {
+    d: "M11.5724 17.6436L11.9103 16.4883L12.2482 17.6436L13.4037 17.9814L12.2482 18.3193L11.9103 19.4746L11.5724 18.3193L10.417 17.9814L11.5724 17.6436Z",
+    fill: "url(#telescope3)"
+  }), /*#__PURE__*/React.createElement("path", {
+    d: "M24.1087 17.2064C24.1087 18.1973 23.3228 18.9921 22.3637 18.9921C21.4045 18.9921 20.6186 18.1973 20.6186 17.2064C20.6186 16.2154 21.4045 15.4207 22.3637 15.4207C23.3228 15.4207 24.1087 16.2154 24.1087 17.2064Z",
+    fill: "url(#telescope4)",
+    stroke: "#282E3E",
+    "stroke-width": "0.492063"
+  }), /*#__PURE__*/React.createElement("path", {
+    d: "M21.141 10.0391C21.2299 9.77403 21.0876 9.4837 20.8223 9.38909L9.04582 5.18912C8.77812 5.09365 8.48716 5.23363 8.39743 5.50106L6.59531 10.8722C6.50639 11.1372 6.64877 11.4275 6.91406 11.5221L18.6905 15.7221C18.9582 15.8176 19.2492 15.6776 19.3389 15.4102L19.4224 15.1612C19.5122 14.8938 19.8031 14.7538 20.0707 14.8492L26.5517 17.1595C26.8194 17.2549 27.1103 17.1149 27.2 16.8476L27.2795 16.6108C27.3693 16.3434 27.6602 16.2034 27.9278 16.2989L30.2033 17.1101C30.3123 17.1489 30.3708 17.2681 30.3343 17.377C30.2978 17.4858 30.3562 17.605 30.4651 17.6439L32.0373 18.2051C32.3051 18.3008 32.5962 18.1607 32.6859 17.8931L33.1621 16.4725C33.2509 16.2075 33.1086 15.9174 32.8434 15.8227L31.2722 15.2618C31.1595 15.2215 31.037 15.2805 30.9992 15.3931C30.9615 15.5057 30.839 15.5647 30.7262 15.5245L28.4532 14.7142C28.1878 14.6196 28.0454 14.3292 28.1344 14.0641L28.2043 13.8558C28.2933 13.5908 28.1509 13.3003 27.8855 13.2058L21.3921 10.8911C21.1267 10.7965 20.9843 10.5061 21.0732 10.2411L21.141 10.0391Z",
+    fill: "#282E3E"
+  }), /*#__PURE__*/React.createElement("path", {
+    d: "M20.8854 19.2381C20.6022 19.2381 20.3726 19.4655 20.3726 19.746V20.254C20.3726 20.5345 20.6022 20.7619 20.8854 20.7619H21.3675V25.8413C21.3675 26.1169 21.5891 26.3412 21.8654 26.349V35.507C21.8654 35.7793 22.0883 36 22.3632 36C22.6381 36 22.861 35.7793 22.861 35.507V26.349C23.1371 26.341 23.3586 26.1168 23.3586 25.8413V20.7619H23.842C24.1252 20.7619 24.3548 20.5345 24.3548 20.254V19.746C24.3548 19.4655 24.1252 19.2381 23.842 19.2381H20.8854Z",
+    fill: "#282E3E"
+  }), /*#__PURE__*/React.createElement("ellipse", {
+    rx: "0.748265",
+    ry: "3.22738",
+    transform: "matrix(0.944543 0.328388 -0.316712 0.948522 7.72905 8.30794)",
+    fill: "url(#telescope5)"
+  }), /*#__PURE__*/React.createElement("defs", null, /*#__PURE__*/React.createElement("linearGradient", {
+    id: "telescope",
+    x1: "11.217",
+    y1: "19.746",
+    x2: "28.8473",
+    y2: "12.445",
+    gradientUnits: "userSpaceOnUse"
+  }, /*#__PURE__*/React.createElement("stop", {
+    offset: "0.109375",
+    stopColor: "#F14D70"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: "0.317708",
+    stopColor: "#FF008A"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: "0.520833",
+    stopColor: "#FF446C"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: "0.869792",
+    stopColor: "#FFB016"
+  })), /*#__PURE__*/React.createElement("linearGradient", {
+    id: "telescope1",
+    x1: "11.217",
+    y1: "19.746",
+    x2: "28.8473",
+    y2: "12.445",
+    gradientUnits: "userSpaceOnUse"
+  }, /*#__PURE__*/React.createElement("stop", {
+    offset: "0.109375",
+    stopColor: "#F14D70"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: "0.317708",
+    stopColor: "#FF008A"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: "0.520833",
+    stopColor: "#FF446C"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: "0.869792",
+    stopColor: "#FFB016"
+  })), /*#__PURE__*/React.createElement("linearGradient", {
+    id: "telescope2",
+    x1: "11.217",
+    y1: "19.746",
+    x2: "28.8473",
+    y2: "12.445",
+    gradientUnits: "userSpaceOnUse"
+  }, /*#__PURE__*/React.createElement("stop", {
+    offset: "0.109375",
+    stopColor: "#F14D70"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: "0.317708",
+    stopColor: "#FF008A"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: "0.520833",
+    stopColor: "#FF446C"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: "0.869792",
+    stopColor: "#FFB016"
+  })), /*#__PURE__*/React.createElement("linearGradient", {
+    id: "telescope3",
+    x1: "11.217",
+    y1: "19.746",
+    x2: "28.8473",
+    y2: "12.445",
+    gradientUnits: "userSpaceOnUse"
+  }, /*#__PURE__*/React.createElement("stop", {
+    offset: "0.109375",
+    stopColor: "#F14D70"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: "0.317708",
+    stopColor: "#FF008A"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: "0.520833",
+    stopColor: "#FF446C"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: "0.869792",
+    stopColor: "#FFB016"
+  })), /*#__PURE__*/React.createElement("linearGradient", {
+    id: "telescope4",
+    x1: "20.5859",
+    y1: "19.2381",
+    x2: "25.2412",
+    y2: "17.246",
+    gradientUnits: "userSpaceOnUse"
+  }, /*#__PURE__*/React.createElement("stop", {
+    offset: "0.109375",
+    stopColor: "#F14D70"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: "0.317708",
+    stopColor: "#FF008A"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: "0.520833",
+    stopColor: "#FF446C"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: "0.869792",
+    stopColor: "#FFB016"
+  })), /*#__PURE__*/React.createElement("linearGradient", {
+    id: "telescope5",
+    x1: "0.0801713",
+    y1: "6.45476",
+    x2: "2.129",
+    y2: "6.24734",
     gradientUnits: "userSpaceOnUse"
   }, /*#__PURE__*/React.createElement("stop", {
     offset: "0.109375",
@@ -3738,6 +4300,112 @@ var TwitterIconLight = function TwitterIconLight(props) {
     d: "M31.7857 5H8.21429C6.43973 5 5 6.43973 5 8.21429V31.7857C5 33.5603 6.43973 35 8.21429 35H31.7857C33.5603 35 35 33.5603 35 31.7857V8.21429C35 6.43973 33.5603 5 31.7857 5ZM28.5112 15.6339C28.5246 15.8214 28.5246 16.0156 28.5246 16.2031C28.5246 22.0089 24.1049 28.6987 16.029 28.6987C13.5379 28.6987 11.2277 27.9754 9.28571 26.7299C9.64062 26.7701 9.98214 26.7835 10.3438 26.7835C12.3996 26.7835 14.2879 26.0871 15.7946 24.9085C13.8661 24.8683 12.2455 23.6027 11.6897 21.8616C12.3661 21.9621 12.9754 21.9621 13.6719 21.7812C11.6629 21.3728 10.1562 19.6049 10.1562 17.4687V17.4152C10.7388 17.7433 11.4219 17.9442 12.1384 17.971C11.536 17.5703 11.0422 17.0267 10.701 16.3887C10.3598 15.7507 10.1819 15.0382 10.183 14.3147C10.183 13.4978 10.3973 12.7478 10.779 12.0982C12.942 14.7634 16.1897 16.5045 19.8326 16.692C19.2098 13.7121 21.4397 11.2946 24.1183 11.2946C25.3839 11.2946 26.5223 11.8237 27.3259 12.6808C28.317 12.4933 29.2679 12.125 30.1116 11.6228C29.7835 12.6406 29.0938 13.4978 28.183 14.0402C29.067 13.9464 29.9241 13.6987 30.7143 13.3571C30.1183 14.2344 29.3683 15.0112 28.5112 15.6339Z",
     fill: "white"
   }));
+};
+
+var TypographyIcon = function TypographyIcon(props) {
+  return /*#__PURE__*/React.createElement("svg", {
+    className: props.className,
+    width: "40",
+    height: "40",
+    viewBox: "0 0 40 40",
+    fill: "none",
+    xmlns: "http://www.w3.org/2000/svg"
+  }, /*#__PURE__*/React.createElement("path", {
+    d: "M3.59646 29.5073L3.59265 29.5197L3.58949 29.5323C3.56708 29.6217 3.54886 29.6998 3.53592 29.7642C3.52561 29.8156 3.5102 29.8971 3.5102 29.9732C3.5102 30.6919 3.93262 31.2464 4.58334 31.6454L4.59263 31.6511L4.60216 31.6564C5.25107 32.0156 5.93482 32.2003 6.64731 32.2003C7.09599 32.2003 7.5097 32.1227 7.84822 31.9234C8.20031 31.7161 8.4323 31.3993 8.53961 31.0056L9.66372 27.085H16.3186L17.4427 31.0057C17.5501 31.3993 17.782 31.7161 18.1341 31.9234C18.4726 32.1227 18.8863 32.2003 19.335 32.2003C20.0354 32.2003 20.7124 31.9997 21.3597 31.6175C22.0192 31.228 22.4721 30.6872 22.4721 29.9732C22.4721 29.8971 22.4567 29.8156 22.4464 29.7642C22.4335 29.6998 22.4153 29.6217 22.3928 29.5323L22.3897 29.5197L22.3859 29.5073L16.1563 9.27566C15.9792 8.66373 15.5404 8.22501 14.9295 7.94401C14.3393 7.65147 13.6845 7.5102 12.975 7.5102C12.2642 7.5102 11.6082 7.65204 11.017 7.94578C10.4227 8.23007 10.001 8.67081 9.82601 9.27569L3.59646 29.5073ZM30.7337 20.8093L30.7397 20.8172L30.7459 20.8248C31.1294 21.2939 31.3312 21.8458 31.3448 22.5022H30.5117C28.0448 22.5022 26.0872 22.8589 24.6911 23.6241C23.2117 24.4349 22.4996 25.8436 22.4996 27.7212C22.4996 29.2064 22.9148 30.4147 23.816 31.2628L23.816 31.2629L23.8209 31.2674C24.7199 32.0907 25.855 32.4898 27.1864 32.4898C28.8036 32.4898 30.2837 31.8531 31.6229 30.6385C31.6916 31.0747 31.9425 31.4369 32.3169 31.7167L32.3168 31.7169L32.3284 31.725C32.7923 32.0514 33.348 32.2003 33.9661 32.2003C34.6196 32.2003 35.2042 32.055 35.6899 31.7324C36.1715 31.4124 36.4898 30.9652 36.4898 30.3914V22.5094C36.4898 20.5951 35.8796 18.9786 34.6425 17.6986C33.3763 16.3665 31.4812 15.7461 29.0589 15.7461C27.7682 15.7461 26.5312 15.9946 25.3518 16.4915C24.7741 16.7287 24.2995 17.0043 23.9627 17.3333C23.6175 17.6706 23.4036 18.0799 23.4036 18.5523C23.4036 19.1534 23.5557 19.713 23.8612 20.2205C24.191 20.7682 24.6809 21.1011 25.3139 21.1011C25.4253 21.1011 25.5363 21.0673 25.5975 21.0479C25.6775 21.0224 25.7718 20.9872 25.8767 20.9448C26.0877 20.8595 26.3685 20.7347 26.7157 20.5725L26.7158 20.5726L26.7269 20.5671C27.3325 20.2653 28.0825 20.1037 28.9943 20.1037C29.8577 20.1037 30.4001 20.366 30.7337 20.8093ZM28.4143 26.0277L28.4143 26.0278L28.4218 26.025C29.0961 25.7754 30.0614 25.6376 31.3455 25.6372V25.8231C31.3455 26.4417 31.0925 27.03 30.5211 27.5994C29.9364 28.182 29.3865 28.4217 28.8652 28.4217C28.4492 28.4217 28.1548 28.3139 27.9399 28.1342C27.7664 27.954 27.6439 27.6604 27.6439 27.1743C27.6439 26.84 27.7184 26.6051 27.8331 26.4369C27.9465 26.2708 28.1271 26.1287 28.4143 26.0277ZM12.975 15.2276L15.1352 22.8239H10.8148L12.975 15.2276Z",
+    fill: "url(#typography)",
+    stroke: "#282E3E",
+    strokeWidth: "0.979592"
+  }), /*#__PURE__*/React.createElement("defs", null, /*#__PURE__*/React.createElement("linearGradient", {
+    id: "typography",
+    x1: "5.71429",
+    y1: "32",
+    x2: "38.7686",
+    y2: "12.7554",
+    gradientUnits: "userSpaceOnUse"
+  }, /*#__PURE__*/React.createElement("stop", {
+    offset: "0.109375",
+    stopColor: "#F14D70"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: "0.317708",
+    stopColor: "#FF008A"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: "0.520833",
+    stopColor: "#FF446C"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: "0.869792",
+    stopColor: "#FFB016"
+  }))));
+};
+
+var VisionIcon = function VisionIcon(props) {
+  return /*#__PURE__*/React.createElement("svg", {
+    className: props.className,
+    width: "40",
+    height: "40",
+    viewBox: "0 0 40 40",
+    fill: "none",
+    xmlns: "http://www.w3.org/2000/svg"
+  }, /*#__PURE__*/React.createElement("path", {
+    d: "M35.4655 21.0345C35.4655 22.8568 33.9254 24.6602 31.0805 26.0397C28.2724 27.4014 24.3555 28.2586 20 28.2586C15.6445 28.2586 11.7276 27.4014 8.9195 26.0397C6.07458 24.6602 4.53448 22.8568 4.53448 21.0345C4.53448 19.2121 6.07458 17.4088 8.9195 16.0292C11.7276 14.6675 15.6445 13.8103 20 13.8103C24.3555 13.8103 28.2724 14.6675 31.0805 16.0292C33.9254 17.4088 35.4655 19.2121 35.4655 21.0345Z",
+    fill: "white",
+    stroke: "#282E3E",
+    strokeWidth: "1.06897"
+  }), /*#__PURE__*/React.createElement("ellipse", {
+    cx: "19.9997",
+    cy: "21.0345",
+    rx: "6.70968",
+    ry: "6.72414",
+    fill: "url(#vision)"
+  }), /*#__PURE__*/React.createElement("ellipse", {
+    cx: "20.0001",
+    cy: "21.0345",
+    rx: "2.58065",
+    ry: "2.58621",
+    fill: "#282E3E"
+  }), /*#__PURE__*/React.createElement("path", {
+    fillRule: "evenodd",
+    clipRule: "evenodd",
+    d: "M13.7571 6.60081L13.29 5L12.8229 6.60081L11.2255 7.06897L12.8229 7.53712L13.29 9.13793L13.7571 7.53712L15.3545 7.06897L13.7571 6.60081ZM8.59612 10.7387L8.12897 9.13793L7.66182 10.7387L6.06445 11.2069L7.66182 11.6751L8.12897 13.2759L8.59612 11.6751L10.1935 11.2069L8.59612 10.7387ZM25.1617 31.8966L25.512 33.0972L26.7101 33.4483L25.512 33.7994L25.1617 35L24.8113 33.7994L23.6133 33.4483L24.8113 33.0972L25.1617 31.8966ZM32.2555 30.9942L31.6131 28.7931L30.9708 30.9942L28.7744 31.6379L30.9708 32.2816L31.6131 34.4827L32.2555 32.2816L34.4518 31.6379L32.2555 30.9942Z",
+    fill: "url(#vision1)"
+  }), /*#__PURE__*/React.createElement("defs", null, /*#__PURE__*/React.createElement("linearGradient", {
+    id: "vision",
+    x1: "14.0089",
+    y1: "27.7586",
+    x2: "29.6076",
+    y2: "20.962",
+    gradientUnits: "userSpaceOnUse"
+  }, /*#__PURE__*/React.createElement("stop", {
+    offset: "0.109375",
+    stopColor: "#F14D70"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: "0.317708",
+    stopColor: "#FF008A"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: "0.520833",
+    stopColor: "#FF446C"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: "0.869792",
+    stopColor: "#FFB016"
+  })), /*#__PURE__*/React.createElement("linearGradient", {
+    id: "vision1",
+    x1: "7.58521",
+    y1: "35",
+    x2: "41.1219",
+    y2: "21.1431",
+    gradientUnits: "userSpaceOnUse"
+  }, /*#__PURE__*/React.createElement("stop", {
+    offset: "0.109375",
+    stopColor: "#F14D70"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: "0.317708",
+    stopColor: "#FF008A"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: "0.520833",
+    stopColor: "#FF446C"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: "0.869792",
+    stopColor: "#FFB016"
+  }))));
 };
 
 var VolunteerIcon = function VolunteerIcon(props) {
@@ -3859,7 +4527,7 @@ var returnLibrary = function returnLibrary() {
     PlusSignIcon: PlusSign,
     SocialIcon: SocialIcon,
     StethoscopeIcon: StethoscopeIcon,
-    TargetIcon: TargetIcon,
+    TargetIcon: TelescopeIcon,
     VolunteerIcon: VolunteerIcon,
     VolunteerIconGrey: VolunteerIconGrey,
     FacebookIconDark: FacebookIconDark,
@@ -3869,7 +4537,17 @@ var returnLibrary = function returnLibrary() {
     LinkedinIconDark: LinkedinIconDark,
     LinkedinIconLight: LinkedinIconLight,
     TwitterIconDark: TwitterIconDark,
-    TwitterIconLight: TwitterIconLight
+    TwitterIconLight: TwitterIconLight,
+    VisionIcon: VisionIcon,
+    SquaresIcon: SquaresIcon,
+    SquaresIconGrey: SquaresIconGrey,
+    TelescopeIcon: TargetIcon,
+    TypographyIcon: TypographyIcon,
+    RulerIcon: RulerIcon,
+    SearchIcon: SearchIcon,
+    ShapesIcon: ShapesIcon,
+    ColorsIcon: ColorsIcon,
+    FormIcon: FormIcon
   };
 };
 
