@@ -1,9 +1,9 @@
 import React from 'react';
 
-const ClockIconGrey = (props) => {
+const ClockIconDark = (props) => {
     return (
         <svg className={props.className} width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <circle cx="20" cy="20" r="15.36" fill="#535968" stroke="#535968" strokeWidth="1.28"/>
+            <circle cx="20" cy="20" r="15.36" fill="#282E3E" stroke="#282E3E" strokeWidth="1.28"/>
             <path d="M18.9999 8.64C18.9999 8.28654 19.2859 8 19.6388 8H20.361C20.7138 8 20.9999 8.28654 20.9999 8.64V23.36C20.9999 23.7135 20.7138 24 20.361 24H19.6388C19.2859 24 18.9999 23.7135 18.9999 23.36V8.64Z" fill="#F6F7FB"/>
             <path d="M24.9998 16C25.3055 15.8236 25.7048 15.9236 25.8915 16.2235L26.1069 16.8611C26.2937 17.161 26.1973 17.5471 25.8915 17.7235L17.8655 22.355C17.5597 22.5315 17.1605 22.4314 16.9737 22.1315L16.7583 21.4939C16.5715 21.194 16.668 20.8079 16.9737 20.6315L24.9998 16Z" fill="#F6F7FB"/>
             <path d="M20.0003 6.56C20.3537 6.56 20.6403 6.27346 20.6403 5.92C20.6403 5.56654 20.3537 5.28 20.0003 5.28C19.6468 5.28 19.3603 5.56654 19.3603 5.92C19.3603 6.27346 19.6468 6.56 20.0003 6.56Z" fill="white"/>
@@ -23,4 +23,4 @@ const ClockIconGrey = (props) => {
     )
 }
 
-export default ClockIconGrey;
+export default ClockIconDark;
